@@ -31,3 +31,11 @@ p,a,input,label,textarea,span,ul,li{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+header nav img{
+    width: 100px;
+}
+
+header li{
+    margin:  0 10px;
+}
