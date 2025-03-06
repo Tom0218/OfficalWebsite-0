@@ -25,18 +25,15 @@ p.lead{
     padding: 80px 0px;
 }
 
-#second h3{
-    margin-bottom: 80px;
-}
-
 #second img{
     width: 100px;
     border-radius: 100%;
     margin-bottom: 13px;
 }
 
-
-Resources
+#latest .row h3{
+    margin-bottom: 10vh;
+}
 
 p,a,input,label,textarea,span,ul,li{
     font-family: 'Open Sans', sans-serif;
@@ -69,4 +66,48 @@ header nav img{
 
 header li{
     margin:  0 10px;
+}
+
+#latest .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest .container .row .outer{
+    background-color: ghostwhite;
+    padding: 5% 5%;
+}
+
+#latest .container .row .outer .upper{
+    position: relative;
+    width: 320px;  /* 设置固定宽度 */
+    height: 300px; /* 设置固定高度 */
+    overflow: hidden; /* 避免图片溢出 */
+}
+
+#latest .container .row .outer .upper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#latest .container .row .outer .upper .innertext {
+    position: absolute;
+    bottom: 10px; /* 距离底部 10px */
+    left: 10px; /* 距离左侧 10px */
+    color: white; /* 文字颜色 */
+    background: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#latest .container .row .outer .upper .innertext span{
+    background-color: gainsboro;
+    border-radius: 7%;
+    padding: 3%;
+}
+
+#latest .container .row .outer .upper .innertext h5{
+    margin-top: 5%;
+    margin-bottom: 0;
 }
