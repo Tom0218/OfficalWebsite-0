@@ -2,35 +2,54 @@
 #intro .jumbotron{
     height: 70vh;
     margin-bottom: 0px;
+    background-color: white;
+    color: white;
+    background-image: url(/image/DB471593-63EB-4E25-B0FA-AA71757BF118_1_105_c.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
 }
+
+#intro .jumbotron h3{
+    background: rgba(0, 0, 0, 0.512);
+    padding: 1% 2%;
+    width: 70%;
+}
+
 #second .jumbotron{
     height: 70vh;
     margin-bottom: 0px;
+    background-color: white;
+    padding: 0;
 }
+
 #latest .jumbotron{
     height: 70vh;
     margin-bottom: 0px;
 }
-#email .jumbotron{
-    height: 70vh;
-    margin-bottom: 0px;
-}
 
-h1,h2,h3,h4,h5,h6{
+
+h1,h2,h3,h4,h5,h6,p{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
 h3{
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 
-p{
+p, span{
     color: #707070;
 }
 
-p.lead{
-    color: black;
+a{
+    text-decoration: none;
+    color: #707070;;
+}
+
+ul li{
+    list-style: none;
 }
 
 #second img{
@@ -51,7 +70,7 @@ p,a,input,label,textarea,span,ul,li{
 }
 
 .btn {
-    background: #f05f5c;
+    background: black;
     color: white;
     /* padding: 9px 26px; */
     border-radius: 20px;
@@ -76,14 +95,12 @@ p,a,input,label,textarea,span,ul,li{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-#email .container{
-    position: relative;top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
 
 header nav img{
+    width: 100px;
+}
+
+footer .container .row img{
     width: 100px;
 }
 
